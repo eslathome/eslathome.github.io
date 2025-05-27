@@ -58,10 +58,11 @@ header h1 {
 } 
 
 .names { 
+  display: block;
+  margin-top: 0.25em; /* space below the title */
   font-size: 0.8rem; 
   font-style: italic; 
   color: var(--accent-color-green); 
-  margin-top: 5px; 
 } 
 
 nav { 
